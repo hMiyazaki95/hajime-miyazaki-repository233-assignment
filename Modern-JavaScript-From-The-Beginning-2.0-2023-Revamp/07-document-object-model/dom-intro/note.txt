@@ -1,0 +1,14 @@
+What Is The Document Object Model?
+
+programming Interface for web/HTML elements
+
+Structure that we can interact with via JavaScript
+
+Includes tags, attributes, text nodes, etc
+
+Represented as a tree Structure
+
+
+DOM Visualization
+https://bioub.github.io/dom-visualizer/
+https://codepen.io/pavlovsk/pen/QKGpQr
