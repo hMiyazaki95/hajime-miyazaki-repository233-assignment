@@ -25,7 +25,7 @@ function removeItem3(itemNumber) {
 
 const removeItem4 = (itemNumber) => {
     document.querySelectorAll('li')[itemNumber - 1].remove();
-
+}
 removeClearButton();
 //removeFirstItem();
 //removeItem(2);

@@ -1,0 +1,14 @@
+Event Bubbling
+
+with bubbling, the event is  first captured and handled by the
+innermost element and then propagated to outer elements
+
+
+*Process of Event Bubbling
+Document (end)
+HTML
+BODY
+DIV
+BUTTON (start) (click)
+
+Event Target
