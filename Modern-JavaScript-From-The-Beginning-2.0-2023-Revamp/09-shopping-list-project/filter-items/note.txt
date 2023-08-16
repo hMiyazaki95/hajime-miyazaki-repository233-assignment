@@ -1,0 +1,5 @@
+filter items is hided if there is no items in the list
+
+clear all button is hided if there is no items in the list
+
+
