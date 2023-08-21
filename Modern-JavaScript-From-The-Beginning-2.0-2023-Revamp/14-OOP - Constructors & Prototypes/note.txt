@@ -1,0 +1,112 @@
+What We Will Cover in this section
+
+What OOP is and it's principles
+Object literals
+Constructor functions
+Prototypes
+Prototype chain & inheritance
+Object.create()
+call() method
+classes
+Inheritance / sub-classes
+Static methods
+Getters & setters
+Private properties
+Flags & descriptors
+Sealing & freezing
+
+
+What is OOP?
+
+OOP/OBject Oriented Programming is a programming paradigm or a way of
+thinking about and structuring code. It is a specific style to implement certain
+principles.
+
+There are other paradigms such as procedural, functional and logic. OOP is 
+extremely common in many different languages.
+
+
+What is an Object?
+
+'Self-contained' piece of code that is a collection of methods and properties.
+Objects are used as building blocks and can interact with one another.
+
+There are many ways to create objects in JS. We have object literals, constructor
+functions, classes, factories and more.
+
+We have worked with many objects already. We have even created some using the object literal syntax.
+
+
+Example of Common Objects
+
+- User
+- Post 
+- Comment
+- UI Component
+- Product
+- Order
+- create
+- Employee
+- Message
+- Book
+- Item
+
+Why Use OOP
+- Can make your code easier to read and understand
+- prevents spaghetti code
+- Flexible and allows you to build complex applications
+- Not always needed. OOP can be overkill for smaller projects. It'section
+great for more complex projects, especially if  working on a team.
+
+Components of OOP
+
+- Constructor Functions (JS): Creates a blueprint for an object
+- Prototypes (JS): A way for objects to inherit properties and methods from
+one another
+- Classes: Another way to create a blueprint. "Syntactic Sugar" in JS, but part oas many other languages
+- Instances: Objects are "instantiated" using the blueprint (Constructor or Classes)
+
+
+
+
+User Class {
+- constructor(names, email) 
+- this.name = name; 
+}
+
+class User {
+    constructor(name, email){
+        this.name = name; // this is pointing the variable name and assign the input value to it
+        this.email = email;
+    }
+
+    createProfile() {
+
+    }
+
+    logout() {
+        
+    }
+
+}
+
+
+Basic Principles Of OOP
+
+1. Abstraction
+
+Hiding all but the relevant parts of an object in order to reduce complexity and increase efficiency.
+
+We have already seen abstraction many times in this course. When we use fetch() or we create an event listener with addEventListener(). We have no clue how it works. We only know about the methods and parts that are relevant to what we're doing today.
+
+2. Encapsulation
+
+The Process of wrapping up data and methods into a unit such as a class or a function. Encapsulation usually includes some kind of "data hiding".
+
+3. Inheritance
+
+The process of inheriting the properties and methods from a parent class or constructor.
+
+4. Polymorphism
+
+The process of inheriting the properties and methods from a parent class or constructor.
